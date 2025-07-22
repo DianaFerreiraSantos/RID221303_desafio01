@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+body{
+    margin: 0px;
+    font-family: "inter";
+    max-width: 1440px;   
+}
+
+#menu-superior{
+    background-color: #303030;
+    height: 475px;   
+}
+
+#titulo-superior{
+    font-size: 60px;
+    color: #FFFFFF;
+    padding-top: 206px;
+    padding-left: 62px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0,025em;
+    margin-top: 0px;
+    }
+
+#texto-superior{
+    color: #FFFFFF;
+    padding-left: 62px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+#menu-informacional{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    height: 229px;
+        
+}
+
+.numero{
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-top: 54px; 
+    margin-left: 120px;
+     
+    
+}
+
+.descricao{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    
+        
+}
+
+#menu-imagem {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 80px;
+    padding: 10px;
+    gap: 30px; 
+    margin-bottom: 80px;
+    margin-right: 20px;
+}
+
+#menu-imagem h1 {
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#menu-imagem p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    color: #000000;
+}
+
+#imagem img {
+    width: 605px;
+    height: auto;
+    border-radius: 25px;
+        
+}
+
+#formulario{
+    text-align: center;
+    height: 638px;
+    background-color: #303030;
+}
+
+#titulo-formulario{
+    color: white;
+    font-size: 32px;
+    padding-top: 100px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color: #EAECE5;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    padding-left: 20px;
+
+   }
+
+button{
+    width: 300px;
+    height: 53px;
+    color: #EAECE5;
+    background-color: #c07212;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
